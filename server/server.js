@@ -1,5 +1,5 @@
-import mongoose from 'mongoose'
-import Document from './Document'
+const mongoose = require('mongoose')
+const Document = require('./Document')
 
 mongoose.connect('mongodb://localhost/docs-db')
 
