@@ -1,3 +1,1 @@
-"scripts": {
-  "start": "cd ./server && npm run start"
-}
+web: cd ./server && npm run start
