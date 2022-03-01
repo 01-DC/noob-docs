@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Document = require('./Document')
 
-mongoose.connect('mongodb://localhost/docs-db')
+mongoose.connect('mongodb+srv://dc4190:ZobZI46hHosEWvLn@cluster0.oeg4g.mongodb.net/noob-docs-db?retryWrites=true&w=majority')
 
 const io = require('socket.io')(3001, {
     cors: {
