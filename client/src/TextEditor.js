@@ -24,7 +24,8 @@ export default function TextEditor() {
 
 
   useEffect(() => {
-    const s = io("http://localhost:3001")
+    // const s = io("http://localhost:3001")
+    const s = io("https://noob-docs.herokuapp.com/")
     setSocket(s)
 
     return () => {
